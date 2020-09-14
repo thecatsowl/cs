@@ -1,1 +1,1 @@
-This site explores Computer Operating Systems
+This site explores Computer Systems.
