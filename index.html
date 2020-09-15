@@ -8,10 +8,29 @@
 <head>
    <title>Computer Systems</title>
    <meta charset="utf-8"
+   <style>
+     .dark-mode
+	   {
+	      background-color: #111111;
+	      color: #00ffff;
+	   }
+   </style>
    <link rel="icon" href="favicon_.ico" type="image/icon-x">
 </head>
 <body style="background-color: #ff0000">
    <h1 align="center" style="color: #00ffff">Hello, Computer Systems World!</h1>
+   <nav>
+      <button onclick="myFuntion()">Toggle Dark Mode</button>
+	  
+	  <script>
+	     function myFunction()
+		 {
+			 var element=document.body;
+			 element.classList.toggle("dark-mode");
+		 }
+	  </script>
+
+   </nav>
 </body>
 
 </html>
