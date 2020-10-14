@@ -1,0 +1,47 @@
+/************************************************************************************************************************
+
+  Programmer: Robert Aguilar
+
+  Date: 	  10/14/20
+  
+  Filename:	  red.css
+
+  Purpose: 	  Provde style sheet to index file for Computer Systems Site
+ 
+************************************************************************************************************************/
+
+
+.top_nav
+{
+ text-align: center;
+ color: #00ffff; 
+}
+.top_h1
+{
+ text-align: center;
+}
+a:link
+{
+ color: #00ffff;
+}
+a:visited
+{
+ color: #40e0d0;
+}
+a:hover 
+{
+ color: #afeeee;
+}
+body
+{
+ background-color: #ff0000;      
+ color: #00ffff;
+}
+.dark-mode
+{
+ background-color: #111111;
+ color: #00ffff;
+}
+
+
+
